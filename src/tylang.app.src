@@ -1,0 +1,17 @@
+{application, tylang,
+ [{description, "Typed Erlang Compiler"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { tylang_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    aleppo
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
