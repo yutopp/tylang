@@ -1,6 +1,11 @@
 # Tylang
 
-TYped erLANG
+**WORK IN PROGRESS**
+
+Tylang, TYped erLANG, extends Erlang with type annotations and etc.  
+This repository provides only a transpiler from Tylang to Erlang.
+
+A type checker for Tylang is provided as [Eir](https://github.com/yutopp/eir).
 
 ## Build
 
