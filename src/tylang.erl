@@ -49,7 +49,7 @@ do(State0) ->
          OutDir = rebar_app_info:ebin_dir(AppInfo),
 
          rebar_base_compiler:run(Opts, [],
-                                 SourceDir, ".merl",
+                                 SourceDir, ".trl",
                                  OutDir, ".beam",
                                  fun(Source, Target, Config) ->
                                          tylang_compile(Source, Target, Config)
