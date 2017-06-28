@@ -7,6 +7,17 @@ This repository provides only a transpiler from Tylang to Erlang.
 
 A type checker for Tylang is provided as [Eir](https://github.com/yutopp/eir).
 
+## How To Use
+
+Install tylang transpiler as a rebar3 plugin.  
+Add the following to your rebar.config file:
+```
+{plugins, [
+    {tylang, ".*", {git, "https://github.com/yutopp/tylang.git", {brunch, "master"}}}
+]}.
+{provider_hooks, [{pre, [{compile, {tylang, compile}}]}]}.
+```
+
 ## Build
 
 ```

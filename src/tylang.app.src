@@ -5,8 +5,8 @@
   {mod, { tylang_app, []}},
   {applications,
    [kernel,
-    stdlib,
-    aleppo
+    stdlib
+%%    aleppo
    ]},
   {env,[]},
   {modules, []},
